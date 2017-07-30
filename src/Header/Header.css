@@ -1,0 +1,24 @@
+
+.App-header {
+  background-color: #222;
+  height: 3rem;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 8rem);
+  grid-gap: 1rem;
+  justify-content: center;
+    align-content: center;
+
+}
+
+.header-button {
+    display: flex;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 150%;
+    justify-content: center;
+    height: 2rem;
+    margin: auto 0;
+    align-items: center;
+}
